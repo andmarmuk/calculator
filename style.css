@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all{
+    display: block;
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background-color: #aeaeec;
+    border-radius: 20px;
+    border: 5px solid rgba(197, 158, 233, 0.418);
+}
+.ekran{
+    display: block;
+    width: 320px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(231, 231, 255);
+    border-radius: 10px;
+    border: 2px solid rgba(197, 158, 233, 0.418);
+}
+h1{
+    color: rgba(0, 0, 0, 0.582);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+button {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(174, 174, 238);
+    border-radius: 10px;
+    border: 1px solid rgba(197, 158, 233, 0.418);
+}
+
+.size-numbers{
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    width: 250px;
+    height: 140px;
+    margin: auto;
+}
+.size-oper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+}
+
+.numbers{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 25px;
+    background-color: rgb(138, 150, 255);
+    
+}
+.operators{
+    display: inline-block;
+    width: 60px;
+    margin: 10px;
+    background-color: rgb(218, 206, 203);
+
+}
+.main-operators{
+    display: block;
+    margin: 10px;
+    width: 60px;
+    background-color: rgb(238, 200, 232);
+}
+.size-main{
+    display: flex;
+    margin-left: 255px;
+    flex-direction: column-reverse;
+    height: 330px;
+    width: 60px;
+}
+.color{
+    width: 60px;
+    margin: 10px;
+    background-color: rgba(255, 242, 242, 0.527);
+}
+#row{
+    height: 180px; 
+}
+.numbers:hover{
+    background-color: blueviolet;
+}
+.operators:hover{
+    background-color: blueviolet;
+}
+.main-operators:hover{
+    background-color: blueviolet;
+}
+.color:hover{
+    background-color: blueviolet;
+}
