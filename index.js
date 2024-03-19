@@ -6,7 +6,7 @@ let buttons = document.querySelectorAll('button');
 let numbers = document.querySelectorAll('button.numbers');
 let operators = document.querySelectorAll('button.operators');
 let ekran = document.getElementById('ekran');
-ekran = true;
+
 //display to screen
   for(item of buttons){item.addEventListener('click', function () {
     a = this.value;
