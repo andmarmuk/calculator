@@ -52,7 +52,7 @@ document.getElementById('row').addEventListener("click", function () {
     } else if (operator == '*'){
         ekran.innerText = (parseFloat)(x) * (parseFloat)(y);
     } else if (operator == '/'){
-        ekran.innerText = (parseFloat)(x) % (parseFloat)(y);
+        ekran.innerText = (parseFloat)(x) / (parseFloat)(y);
     } else if (operator == 'MOD'){
         ekran.innerText = (parseFloat)(x) % (parseFloat)(y);
         console.log(ekran.innerText);
