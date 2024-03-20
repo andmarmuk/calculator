@@ -10,7 +10,6 @@ let ekran = document.getElementById('ekran');
 //display to screen
   for(item of buttons){item.addEventListener('click', function () {
     a = this.value;
-    // a !== '.'
     a !== '=';
     if ((a == '+' || a == 'MOD' || a == '-' || a == '*' || a == '/') & x == '' ){
     ekran.innerText = '';
